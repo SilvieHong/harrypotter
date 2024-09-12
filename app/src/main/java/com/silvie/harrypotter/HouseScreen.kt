@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavController
 
 @Composable
 fun HouseScreen() {
@@ -19,12 +18,12 @@ fun HouseScreen() {
         Text(text = "Harry Potter")
 
         Row(modifier = Modifier.weight(1f)) {
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.gryffindor)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.hufflepuff)
         }
         Row(modifier = Modifier.weight(1f)) {
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.ravenclaw)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.slytherin)
         }
     }
 
