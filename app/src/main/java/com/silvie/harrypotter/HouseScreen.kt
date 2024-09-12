@@ -19,12 +19,12 @@ fun HouseScreen() {
         Text(text = "Harry Potter")
 
         Row(modifier = Modifier.weight(1f)) {
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.gryffindor)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.hufflepuff)
         }
         Row(modifier = Modifier.weight(1f)) {
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
-//            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.test)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.ravenclaw)
+            ImageSection(modifier = Modifier.weight(1f), imageRes = R.drawable.slytherin)
         }
     }
 
